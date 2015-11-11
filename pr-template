@@ -25,6 +25,10 @@ What possible risks/adverse affects are there?
 * Is there a change to Jenkins that needs to be made?
 * Is there something to do out-of-band after this is landed?
 
+## Known issues
+
+_(Optional)_
+
 ## Test coverage
 
 _(Optional)_ Increasing test coverage is important to us. If you let test

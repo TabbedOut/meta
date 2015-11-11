@@ -10,12 +10,13 @@ be preserved forever in the git history.
 How is the change you made documented? README/Wiki/comments/Makefile ? Who
 could replicate your work?
 
-## Dangers
+## Danger zone
 
-What possible adverse affects are there?
+What possible risks/adverse affects are there?
 * Uptime
 * Security
 * Performance
+* Data loss
 
 ## Followup tasks
 

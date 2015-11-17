@@ -5,25 +5,27 @@ restatement of the ticket. Think of your audience; could someone not familiar
 with the language understand? A non-technical person? Remember that this will
 be preserved forever in the git history.
 
-## Documentation
+## Did you document your work?
 
-How is the change you made documented? README/Wiki/comments/Makefile ? Who
-could replicate your work?
+Can anyone else do what you did by reading the README? Did you put information
+elsewhere? (Wiki/comments/Makefile)?
 
 ## Danger zone
 
 What possible risks/adverse affects are there?
+
 * Uptime
 * Security
-* Performance
+* Performance degradation
 * Data loss
 
 ## Followup tasks
 
-* Was there something you postponed to keep this small but want to revisit?
-* Is there an artifact that needs to be deployed by hand?
+* Was there something you postponed but want to revisit?
+* Is there an artifact that needs to be deployed?
 * Is there a change to Jenkins that needs to be made?
 * Is there something to do out-of-band after this is landed?
+* Do you need to update the release notes?
 
 ## Known issues
 

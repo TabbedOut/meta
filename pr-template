@@ -1,23 +1,43 @@
-#### What's the plan?
-[for PRs that haven't been fully implemented yet]
+## Why are we doing this?
 
-#### What's this PR do?
+Does everyone understand the problem this diff is solving? This may just be a
+restatement of the ticket. Think of your audience; could someone not familiar
+with the language understand? A non-technical person? Remember that this will
+be preserved forever in the git history.
 
-#### Why are we doing this? How does it help us?
+## Did you document your work?
 
-#### How should this be manually tested?
+Can anyone else do what you did by reading the README? Did you put information
+elsewhere? (Wiki/comments/Makefile)?
 
-#### Are there performance implications? If adding JS can it be done async? Do images/CSS/JS have cache headers set?
+## Danger zone
 
-#### What are the relevant tickets?
+What possible risks/adverse affects are there?
 
-#### Next steps?
+* Uptime
+* Security
+* Performance degradation
+* Data loss
 
-#### Smells?
+## Followup tasks
 
-#### TODOs:
-* [  ] your TODO here
+* Was there something you postponed but want to revisit?
+* Is there an artifact that needs to be deployed?
+* Is there a change to Jenkins that needs to be made?
+* Is there something to do out-of-band after this is landed?
+* Do you need to update the release notes?
 
-#### Has the relevant documentation/wiki been updated?
+## Known issues
 
-#### Technical debt note
+_(Optional)_
+
+## Test coverage
+
+_(Optional)_ Increasing test coverage is important to us. If you let test
+coverage slip, you have to justify it.
+
+## Technical debt note
+
+Do a quick estimate of if this diff increases or decreases technical debt.
+Leave a message to future developers about why increased technical debt is
+worth it, or brag about how you figured out how to reduce technical debt.
